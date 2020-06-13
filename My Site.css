@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+header{
+	width: 100%;
+	background-color: #EC715F;
+	height: 70px;
+}
+.header-text-box{
+	width: 1024px;
+	height: 70px;
+	margin: 0 auto;
+	position: relative;
+}
+.My-Site{
+	height:70px;
+	position: absolute;
+	left: 0;
+}
+nav{
+	height: 16px;
+	position: absolute;
+	right: 0;
+	top: 27px;
+}
+.nav-list-item{
+	font-size: 16px;
+	margin: 0 30px;
+	color: #FAFAFA;
+	display: inline-block;
+}
