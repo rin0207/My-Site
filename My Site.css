@@ -36,3 +36,94 @@ nav{
 	color: #FAFAFA;
 	display: inline-block;
 }
+.main-visual{
+	width: 100%;
+	height: 650px;
+}
+.main-visual-content{
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	text-align: center;
+}
+.mv-text-1{
+	padding-top: 200px;
+    font-size: 64px;
+    color: #FAFAFA;
+}
+.mv-text-2{
+	padding-top: 10px;
+    font-size: 20px;
+    color: #FAFAFA;
+}
+.portfolio{
+	width: 100%;
+	height: 881px;
+	background-color: #ECEFF1;
+}
+.portfolio-content{
+	width: 920px;
+	margin: 0 auto;
+	text-align: center;
+}
+.portfolio-title{
+	font-size: 32px;
+	color: #000000;
+    padding-top: 90px;
+    font-weight: bold;
+}
+.portfolio-border{
+	width: 70px;
+	height: 8px;
+	border-bottom: solid 3px #EC715F;
+	margin: 0 auto;
+}
+.portfolio-text{
+	font-size: 16px;
+	color: #000000;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.portfolio-image-1{
+	background-image: url(img/sketch.png);
+	width: 300px;
+	height: 250px;
+	float: left;
+	padding-right: 10px;
+}
+.portfolio-image-2{
+	background-image: url(img/websuku.png);
+	width: 300px;
+	height: 250px;
+	float: left;
+	padding-right: 10px;
+}
+.portfolio-image-3{
+	background-image: url(img/write.png);
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+.portfolio-image-4{
+	background-image: url(img/webcamp.png);
+	width: 300px;
+	height: 250px;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 90px;
+}
+.portfolio-image-5{
+	background-image: url(img/talk.png);
+	width: 300px;
+	height: 250px;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 90px;
+}
+.portfolio-image-6{
+	background-image: url(img/webcamp-mother.png);
+	width: 300px;
+	height: 250px;
+	padding-bottom:90px;
+	float: left;
+}
